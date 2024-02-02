@@ -11,8 +11,8 @@ public class EmployeeAPP {
 	        itDepartment.setDeptName("IT Department");
 	        departmentDAO.saveDepartment(itDepartment);
 		 // Create and save an employee
-		 Employee newEmployee1 = new Employee(1, "John", "Doe", "Male", 
-		"john.doe@example.com", 1234567890);
+		 Employee newEmployee1 = new Employee(1, "Lokesh", "Mutchakarla", "Male", 
+		"loki@example.com", 1234567890);
 		 newEmployee1.setDepartment(itDepartment);
 		 
 		 Employee newEmployee2 = new Employee(2, "Alia", "Bhatt", 
